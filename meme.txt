@@ -2298,17 +2298,6 @@ end
 return uitab
 end
 --------------------------------------------------------------------------------------------------------
-if game.PlaceId == 10260193230 then
-        World1 = true
-    else
-    Notification.Notify("Notification", "Game Not Support :( | Only Blox Fruits.", "rbxassetid://17565248310", {
-    Duration = 10,       
-    Main = {
-        Rounding = true,
-    }
-    });
-end
---------------------------------------------------------------------------------------------------------
 function CheckQuest()
         local MyLevel = game:GetService("Players").LocalPlayer.PlayerData.Level.Value
         if MyLevel >= 1 and MyLevel <= 49 then
